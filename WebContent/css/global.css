@@ -18,7 +18,8 @@
 .menu_item div
 {
 	padding-top: 71px;
-	padding-left: 62px;
+	text-align: center;
+	padding-left: 27px;
 	font-family: 'Raleway', sans-serif;
 	color:#ffffff;
 }
