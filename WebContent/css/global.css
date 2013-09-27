@@ -1,6 +1,25 @@
+@font-face {
+ 	font-family: YH;
+ 	src: url("../font/MSYH.TTF");
+}
+@font-face {
+ 	font-family: YHB;
+ 	src: url("../font/MSYHBD.TTF");
+}
 .menu_bg{
 	background: url("../images/bt-bg-all.png");
-   	height:125px;
+   	height:124px;
+}
+
+.clearfix:after { content:""; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix       { display:inline-block; }/* Safari, Chrome, Opera, FF  */
+.clearfix       { display:block;} /* IE */
+
+body
+{
+	font-family: YH,YouYuan,SimHei;
+	color:#666;   
+	font-size:11pt;
 }
 .menu_item
 {
@@ -20,8 +39,129 @@
 	padding-top: 71px;
 	text-align: center;
 	padding-left: 27px;
-	font-family: 'Raleway', sans-serif;
 	color:#ffffff;
+	
+}
+
+.title
+{
+	font-family: YH,YouYuan,SimHei;
+	text-align: center;
+	color:#ADADAD;   
+}
+
+.small
+{
+	font-size:12pt;
+}
+.border-r{
+	border-right:#ccc solid 1px;
+}
+
+.border-l{
+	border-left:#ccc solid 1px;
+}
+
+.border-b{
+	border-bottom:#ccc solid 1px;
+}
+
+.cell
+{
+	float:left;
+	padding-top:14px;
+	padding-bottom:14px;
+}
+.head_panel
+{
+	height:50px
+}
+
+.foot_panel 
+{
+	border-top:#ccc solid 1px; 
+	height:40px
+}
+
+.select_cell
+{
+		background:url(../images/cellbg.png) repeat-x 0% 100%;
+		color:#666;   
+}
+
+.blue_header
+{
+	background:url(../images/blue_header.png) repeat-x 0% 0%;
+	height:71px;
+}
+
+.content_cell
+{
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #eee;
+	background:url(../images/arrow-right.png) no-repeat 98% 50%; 
+}
+.first_news_content
+{
+	padding-left:10px;
+	color:#888;    
+}
+.big_title
+{
+	font-size:14pt;
+	padding-left:10px;
+	padding-bottom:10px;
+	color:#333;   
+}
+.foot_cell
+{
+	padding-top:10px !important;
+}
+.cell_6
+{
+	width:16.6667%;
+}
+
+.cell_5
+{
+	width:20%;
+}
+
+.cell_4
+{
+	width:25%;
+}
+
+.cell_3
+{
+	width:33.2%;
+}
+
+.cell_2
+{
+	width:50%;
+}
+
+
+.cell_1
+{
+	width:100%;
+}
+
+.pull_right
+{
+	float:right;
+}
+
+.pull_left
+{
+	float:left;
+}
+.panel_header
+{
+	border-bottom:1px solid #ccc;
 }
 
 .white_panel
@@ -35,7 +175,30 @@
 	height:10px;
 }
 
+.first_news
+{
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px; 
+	border-bottom:1px solid #eee;
+} 
+.title_image
+{
+	width:200px;
+	
+}
+/* tmp css*/
+
 .left_panel
 {
 	height:300px;
 }
+.left_panel_block
+{
+	width:200px; 
+	background-color:#21649c;  
+	border-top:1px solid #2669a0;
+	
+}
+
