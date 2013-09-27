@@ -54,6 +54,16 @@ body
 {
 	font-size:12pt;
 }
+
+.new_date
+{
+	padding-right:10px;
+}
+.tiny
+{
+	font-size:9pt;
+	color:#ddd;
+}
 .border-r{
 	border-right:#ccc solid 1px;
 }
@@ -77,12 +87,29 @@ body
 	height:50px
 }
 
+.head_image_panel
+{
+	height:150px;
+}
 .foot_panel 
 {
 	border-top:#ccc solid 1px; 
 	height:40px
 }
 
+.icon_div_4
+{
+	width:25%;
+	float:left;
+	height:100px;
+	background:url(../images/bg_line.png) repeat-y 100% 0%;
+
+}
+
+.black_bg
+{
+	background-color:#272a55;
+}
 .select_cell
 {
 		background:url(../images/cellbg.png) repeat-x 0% 100%;
@@ -94,11 +121,19 @@ body
 	background:url(../images/blue_header.png) repeat-x 0% 0%;
 	height:71px;
 }
+.inner_grid
+{
+	margin-left:0px;
+}
 
+.inner_grid_r
+{
+	margin-right:0px;
+}
 .content_cell
 {
 	padding-top:10px;
-	padding-left:10px;
+	padding-left:20px;
 	padding-bottom:10px;
 	border-bottom:1px solid #eee;
 	background:url(../images/arrow-right.png) no-repeat 98% 50%; 
@@ -106,13 +141,16 @@ body
 .first_news_content
 {
 	padding-left:10px;
-	color:#888;    
+	padding-top:14px;
+	color:#888;   
+	width:270px;
+	height:120px; 
 }
 .big_title
 {
 	font-size:14pt;
 	padding-left:10px;
-	padding-bottom:10px;
+	padding-bottom:1px;
 	color:#333;   
 }
 .foot_cell
@@ -169,12 +207,56 @@ body
 	background-color:#fff;	
 }
 
+.single_new
+{
+	height:50px;
+}
+.single_new .label
+{
+	width:50px;
+	height:50px;
+	float:left;
+	background-color:#80af92;
+}
+.single_new .label_1
+{
+	width:50px;
+	height:50px;
+	float:left;
+	background-color:#907ea6;
+}
+.single_new .label div
+{
+	color:#fff;
+	font-size:18pt;
+	padding-top:10px;
+	padding-left:10px;
+}
+.single_new .label_1 div
+{
+	color:#fff;
+	font-size:18pt;
+	padding-top:10px;
+	padding-left:10px;
+}
+
 .bt-shadow
 {
 	background: url("../images/bt-shadow.png");
 	height:10px;
 }
 
+.sample_left_panel
+{
+	width:300px;
+	float:left;
+}
+.sample_left_panel_1
+{
+	width:230px;
+	float:left;
+	margin-left:10px;
+}
 .first_news
 {
 	padding-top:20px;
@@ -199,6 +281,20 @@ body
 	width:200px; 
 	background-color:#21649c;  
 	border-top:1px solid #2669a0;
-	
 }
 
+.tmp_header_image_bg
+{
+	background: url("../images/rain_bg.jpg");
+}
+
+.tmp_blank_bg
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.tmp_icon
+{
+	padding-left:22px;
+	padding-top:26px;
+}
